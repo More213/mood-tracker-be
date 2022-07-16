@@ -6,7 +6,7 @@ router.post('/user', userController.createUser)
 
 router.get('/users', userController.getAllUsers)
 
-router.delete('/user:id', userController.deleteUser)
+router.delete('/user/:id', userController.deleteUser)
 
 router.get('/user/:id', userController.getOneUser)
 
